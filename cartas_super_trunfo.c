@@ -3,10 +3,13 @@
 int main(){
 
     int populacao, pontosturisticos;
-    double pib,area;
+    float pib,area;
     char estado [60];
     char codigodacarta[60];
     char nomedacidade[60];
+
+    printf("Cartas Super Trunfo \n ")
+    printf("novo commit \n")
 
     printf("Digite o nome da cidade: \n ");
     scanf ("%59s",  nomedacidade);
@@ -14,7 +17,7 @@ int main(){
     printf ("Digite os Pontos Turisticos da Cidade: \n ");
     scanf ("%d", &pontosturisticos);
     
-    printf ("Digite o Estado: ");
+    printf ("Digite o Estado: \n ");
     scanf("%59s", estado);
 
     printf("Digite o numero de populacao da cidade: \n ");
