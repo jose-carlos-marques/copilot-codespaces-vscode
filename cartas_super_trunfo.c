@@ -8,8 +8,8 @@ int main(){
     char codigodacarta[60];
     char nomedacidade[60];
 
-    printf("Cartas Super Trunfo \n ")
-    printf("novo commit \n")
+    printf("Cartas Super Trunfo \n ");
+
 
     printf("Digite o nome da cidade: \n ");
     scanf ("%59s",  nomedacidade);
